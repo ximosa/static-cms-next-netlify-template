@@ -14,13 +14,6 @@ const Burger: FC<BurgerProps> = ({ active, onClick }) => {
       <style jsx>
         {`
           .container {
-            position: fixed;
-            width: 38px;
-            height: 38px;
-            cursor: pointer;
-            top: 1rem;
-            left: 1.25rem;
-            z-index: 2;
             background-color: rgba(255, 255, 255, 0.7);
           }
           .meat {
