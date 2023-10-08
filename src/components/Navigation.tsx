@@ -14,6 +14,7 @@ const Navigation: FC = () => {
   return (
     <>
       <Burger active={active} onClick={() => setActive(!active)} />
+      <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="w-0 md:w-28 md:block">
         <ul
           className={classNames(
@@ -54,6 +55,7 @@ const Navigation: FC = () => {
           </li>
         </ul>
       </div>
+        </nav>
     </>
   );
 };
